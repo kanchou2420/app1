@@ -1,0 +1,23 @@
+# Virtual Environment & Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pt
+
+# IDE and Project Files (Contains sensitive SSH configs and keys)
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Docker and Build
+.DS_Store
+*.log
+flutter_app/build/
+flutter_app/.dart_tool/
+flutter_app/.pub-cache/
+
+# OS files
+Thumbs.db

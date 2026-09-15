@@ -1,0 +1,14 @@
+services:
+  antispy-detector:
+    build:
+      context: .
+      dockerfile: Dockerfile.ubuntu
+    container_name: antispy_detector_app
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:ro
+    devices:
+      - /dev/video0:/dev/video0
+    network_mode: host
+    restart: unless-stopped

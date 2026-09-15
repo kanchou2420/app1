@@ -1,0 +1,12 @@
+.venv/
+.idea/
+.git/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+*.pt
+*.onnx
+flutter_app/build/
+flutter_app/.dart_tool/
